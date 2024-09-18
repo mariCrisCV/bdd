@@ -22,3 +22,14 @@ values ('114','Soul Calibur','accion',8)
 
 insert into videojuegos(codigo,nombre,descripcion,valoracion)
 values ('115','Super Mario Galaxi','Wii',9)
+
+insert into videojuegos(codigo,nombre,valoracion)
+values ('116','Perfect Dark',9)
+
+insert into videojuegos(codigo,nombre,valoracion)
+values ('117','Metroid Prime',8)
+
+insert into videojuegos(codigo,nombre,valoracion)
+values ('118','Halo',8)
+
+select * from videojuegos
