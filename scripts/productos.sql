@@ -23,3 +23,14 @@ values ('7854','Desodorante','producto de cuidado personal',4.95,41)
 
 insert into productos(codigo,nombre,descripcion,precio,stock)
 values ('7863','Acondicionador','producto de cuidado personal',7.95,32)
+
+insert into productos(codigo,nombre,precio,stock)
+values ('1112','Toalla',10.50,9)
+
+insert into productos(codigo,nombre,precio,stock)
+values ('1114','Salida de baño',15.66,14)
+
+insert into productos(codigo,nombre,precio,stock)
+values ('1187','Toalla cabello',7.50,22)
+
+select * from productos
