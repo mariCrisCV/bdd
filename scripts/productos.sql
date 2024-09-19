@@ -34,3 +34,8 @@ insert into productos(codigo,nombre,precio,stock)
 values ('1187','Toalla cabello',7.50,22)
 
 select * from productos
+
+select * from productos where nombre like 'Q%'
+select * from productos where descripcion is null
+select * from productos where precio between '2' and '3'
+
