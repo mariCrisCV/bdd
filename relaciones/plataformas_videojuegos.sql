@@ -1,6 +1,7 @@
 --modificar tabla videojuegos
 select * from videojuegos
 delete from videojuegos
+delete from plataformas
 
 -- crear tabla plataformas
 create table plataformas(
@@ -27,7 +28,7 @@ values(54682, 'Tom and Jerry', 'comedia', 8);
 insert into videojuegos(codigo, nombre, descripcion, valoracion)
 values(01456, 'Ajedres', 'psicoligia', 6);
 insert into videojuegos(codigo, nombre, descripcion, valoracion)
-values(70215, 'God of Ward', 'guerra', 7);
+values(70215, 'God of War', 'guerra', 7);
 insert into videojuegos(codigo, nombre, descripcion, valoracion)
 values(63240, 'Crash', 'deporte', 9);
 insert into videojuegos(codigo, nombre, descripcion, valoracion)
@@ -47,7 +48,7 @@ values('34','Sony PlayStation 5',15983);
 insert into plataformas(id_plataforma, nombre_plataforma, codigo_videojuego)
 values('35','Nintendo Switch',15983);
 insert into plataformas(id_plataforma, nombre_plataforma, codigo_videojuego)
-values('36','Xbox Series',85421);
+values('36','Xbox Series',70215);
 insert into plataformas(id_plataforma, nombre_plataforma, codigo_videojuego)
 values('37','PC',35784);
 insert into plataformas(id_plataforma, nombre_plataforma, codigo_videojuego)
