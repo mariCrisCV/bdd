@@ -22,26 +22,26 @@ create table prestamo(
 )
 
 --insert tabla persona
-insert into persona(cedula, nombre, apellido, fecha_nacimiento)
-values('1721730132','Mariela','Fernandez','1996/12/23');
-insert into persona(cedula, nombre, apellido, fecha_nacimiento)
-values('1721730114','Sean','Lopez','1998/02/5');
-insert into persona(cedula, nombre, apellido, fecha_nacimiento)
-values('1721730115','Rosa','Olivo','1999/03/12');
-insert into persona(cedula, nombre, apellido, fecha_nacimiento)
-values('1721730116','Alex','Tuz','2000/04/18');
-insert into persona(cedula, nombre, apellido, fecha_nacimiento)
-values('1721730117','Jose','Rios','2001/06/20');
-insert into persona(cedula, nombre, apellido, fecha_nacimiento)
-values('1721730118','Andres','Salgado','1995/05/22');
-insert into persona(cedula, nombre, apellido, fecha_nacimiento)
-values('1721730119','Marisol','Pila','1992/08/25');
-insert into persona(cedula, nombre, apellido, fecha_nacimiento)
-values('1721730113','Elizabeth','Bautista','1997/04/4');
-insert into persona(cedula, nombre, apellido, fecha_nacimiento)
-values('1721730112','Juan','Nacato','2000/09/25');
-insert into persona(cedula, nombre, apellido, fecha_nacimiento)
-values('1721730120','Pablo','Rosado','1998/02/10');
+insert into persona(cedula, nombre, apellido, fecha_nacimiento, numero_hijos)
+values('1721730132','Mariela','Fernandez','1996/12/23',2);
+insert into persona(cedula, nombre, apellido, fecha_nacimiento, numero_hijos)
+values('1721730114','Sean','Lopez','1998/02/5',1);
+insert into persona(cedula, nombre, apellido, fecha_nacimiento, numero_hijos)
+values('1721730115','Rosa','Olivo','1999/03/12',3);
+insert into persona(cedula, nombre, apellido, fecha_nacimiento, numero_hijos)
+values('1721730116','Alex','Tuz','2000/04/18',2);
+insert into persona(cedula, nombre, apellido, fecha_nacimiento, numero_hijos)
+values('1721730117','Jose','Rios','2001/06/20',1);
+insert into persona(cedula, nombre, apellido, fecha_nacimiento, numero_hijos)
+values('1721730118','Andres','Salgado','1995/05/22',3);
+insert into persona(cedula, nombre, apellido, fecha_nacimiento, numero_hijos)
+values('1721730119','Marisol','Pila','1992/08/25',2);
+insert into persona(cedula, nombre, apellido, fecha_nacimiento, numero_hijos)
+values('1721730113','Elizabeth','Bautista','1997/04/4',4);
+insert into persona(cedula, nombre, apellido, fecha_nacimiento, numero_hijos)
+values('1721730112','Juan','Nacato','2000/09/25',1);
+insert into persona(cedula, nombre, apellido, fecha_nacimiento, numero_hijos)
+values('1721730120','Pablo','Rosado','1998/02/10',3);
 
 select *from persona
 delete from persona

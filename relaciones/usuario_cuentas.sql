@@ -47,24 +47,24 @@ select * from cuentas
 where fecha_creacion between '21/08/2022' and '21/09/2023'
 
 
-insert into usuario (cedula_propietario, nombre, apellido)
-values ('17501','Fausto','Moscoso');
-insert into usuario (cedula_propietario, nombre, apellido)
-values ('17509','Vinicio','Riera');
-insert into usuario (cedula_propietario, nombre, apellido)
-values ('17510','Ana','Tello');
-insert into usuario (cedula_propietario, nombre, apellido)
-values ('17507','Maria','Taco');
-insert into usuario (cedula_propietario, nombre, apellido)
-values ('17508','Lucia','Vargas');
-insert into usuario (cedula_propietario, nombre, apellido)
-values ('17515','Elias','Paez');
-insert into usuario (cedula_propietario, nombre, apellido)
-values ('17512','Rosa','Lopez');
-insert into usuario (cedula_propietario, nombre, apellido)
-values ('17503','Elisa','Rios');
-insert into usuario (cedula_propietario, nombre, apellido)
-values ('14253','Marco','Villa');
+insert into usuario (cedula_propietario, nombre, apellido, tipo_cuenta)
+values ('17501','Fausto','Moscoso','Ahorros');
+insert into usuario (cedula_propietario, nombre, apellido, tipo_cuenta)
+values ('17509','Vinicio','Riera','Corriente');
+insert into usuario (cedula_propietario, nombre, apellido, tipo_cuenta)
+values ('17510','Ana','Tello','Ahorros');
+insert into usuario (cedula_propietario, nombre, apellido, tipo_cuenta)
+values ('17507','Maria','Taco','Ahorros');
+insert into usuario (cedula_propietario, nombre, apellido, tipo_cuenta)
+values ('17508','Lucia','Vargas','Corriente');
+insert into usuario (cedula_propietario, nombre, apellido, tipo_cuenta)
+values ('17515','Elias','Paez','Corriente');
+insert into usuario (cedula_propietario, nombre, apellido, tipo_cuenta)
+values ('17512','Rosa','Lopez','Ahorros');
+insert into usuario (cedula_propietario, nombre, apellido, tipo_cuenta)
+values ('17503','Elisa','Rios','Ahorros');
+insert into usuario (cedula_propietario, nombre, apellido, tipo_cuenta)
+values ('14253','Marco','Villa','Corriente');
 
 
 
